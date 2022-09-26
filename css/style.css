@@ -107,10 +107,10 @@ header ul {
     top: 8px;
     left: 0;
 }
-header ul.navigation.active {
+header ul.navigation {
     position: fixed;
     top: 0;
-    left: 0;
+    left: -100%;
     width: 100%;
     height: 100%;
     display: flex;
@@ -119,6 +119,10 @@ header ul.navigation.active {
     flex-direction: column;
     background-color: #fff;
     z-index: 10;
+    transition: all .3s;
+}
+header ul.navigation.active {
+    left: 0;
 }
 header ul li {
     list-style: none;
