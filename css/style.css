@@ -291,7 +291,7 @@ header ul li a:hover {
     }
 }
 
-@media (min-width: 991px) {
+@media (min-width: 992px) {
     .toggle {
         display: none;
     }
